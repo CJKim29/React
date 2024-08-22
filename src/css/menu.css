@@ -34,3 +34,11 @@ ul#nav > li:hover {
   text-align: center;
   z-index: 1; /* 보는 시각의 인덱스값 숫자가 높으면 높을 수록 앞에 있다. */
 }
+
+.link-style {
+  color: #eee;
+  text-decoration: none;
+}
+.link-style:hover {
+  color: #9dd9ff;
+}

@@ -18,16 +18,24 @@ function App() {
         <ul id="nav">
           {/* <li id="apple">&nbsp;</li> */}
           <li>
-            <Link to="/">Home</Link>
+            <Link className={"link-style"} to="/">
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/store">Store</Link>
+            <Link className={"link-style"} to="/store">
+              Store
+            </Link>
           </li>
           <li>
-            <Link to="/mac">Mac</Link>
+            <Link className={"link-style"} to="/mac">
+              Mac
+            </Link>
           </li>
           <li>
-            <Link to="/ipad">iPad</Link>
+            <Link className={"link-style"} to="/ipad">
+              iPad
+            </Link>
           </li>
           <li>iPhone</li>
           <li>Watch</li>
