@@ -17,6 +17,7 @@ function Ex2() {
   }
   return (
     <div>
+      <p>이벤트 통합</p>
       <div>
         <label>이름</label>
         <input type="text" id="name" value={vo.name} onChange={setValue} />
