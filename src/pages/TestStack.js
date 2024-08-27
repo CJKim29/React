@@ -33,13 +33,13 @@ function TestStack() {
                         BOX 테스트
                     </Box>
                     <Box sx={{
-                        backgroundColor: 'primary.main',
+                        backgroundColor: 'error.light',
                         color: 'white',
                         height: '100px',
                         width: '100px',
                         padding: '15px',
                         '&:hover': {
-                            backgroundColor: 'primary.light',
+                            backgroundColor: 'info.light',
                         }
                     }}>BOX 테스트</Box>
                 </Stack>
