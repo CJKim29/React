@@ -1,0 +1,13 @@
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #40c3eb;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 20px;
+}
+
+
+.mybtn {
+    width: 100px;
+    /* background-color: rgb(87, 189, 202); */
+}
