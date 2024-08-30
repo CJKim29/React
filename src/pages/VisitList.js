@@ -76,6 +76,9 @@ function VisitList() {
                     return;
                 }
 
+                //삭제확인
+                if (window.confirm("정말 삭제하시겠습니까?") === false) return;
+
                 //삭제처리
                 deleteVisitData(idx);
             })
@@ -95,9 +98,6 @@ function VisitList() {
                     alert("삭제 실패");
                     return;
                 }
-
-                //삭제확인
-                if (window.confirm("정말 삭제하시겠습니까?") === false) return;
 
                 // 새로운 데이터 요청
                 getData();
