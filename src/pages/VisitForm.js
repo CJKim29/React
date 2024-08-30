@@ -56,7 +56,8 @@ function VisitForm() {
         }
 
         // POST 요청(insert) : parameter는 JSON형식
-        const url = "http://localhost:8080/rest/visit";
+        //const url = "http://localhost:8080/rest/visit";
+        const url = "http://54.180.143.241:8080/demo_visit/rest/visit";
         axios.post(url, visit)
             .then(function (response) {
                 console.log(response.data);
